@@ -1,16 +1,16 @@
 :root {
-  /* TODO: fill in your brand colors */
-  --brand-bg: ;
-  --brand-surface: ;
-  --brand-surface-2: ;
-  --brand-border: ;
-  --brand-accent: ;
-  --brand-accent-glow: ;
-  --brand-warn: ;
-  --brand-text: ;
-  --brand-text-dim: ;
+  /* Set during /setup (2026-10-14): dark + blue accent, B2B agency VSL */
+  --brand-bg: #0a0a0f;
+  --brand-surface: #1a1a23;
+  --brand-surface-2: #24242f;
+  --brand-border: rgba(255, 255, 255, 0.12);
+  --brand-accent: #3b82f6;
+  --brand-accent-glow: rgba(59, 130, 246, 0.45);
+  --brand-warn: #ef4444;
+  --brand-text: #ffffff;
+  --brand-text-dim: #a1a1aa;
 
-  /* TODO: pick your typography */
+  /* Inter is also vendored locally via node_modules/@fontsource/inter */
   --font-mono: ui-monospace, Menlo, monospace;
-  --font-display: system-ui, sans-serif;
+  --font-display: "Inter", system-ui, sans-serif;
 }

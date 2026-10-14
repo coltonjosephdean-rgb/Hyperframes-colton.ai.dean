@@ -14,19 +14,22 @@ Each bullet should end with a date in parentheses — that traces back to the pe
 
 _(colors, typography, density, placement — populated by /feedback over time)_
 
-- _no rules captured yet_
+- Modern direct-response VSL look; balanced intensity — talking head stays the anchor, graphics support it (2026-10-14)
+- Every animation must reinforce what's being said (a claim, number, step, or contrast). No decorative/random motion (2026-10-14)
+- Dark + blue accent brand (`#0a0a0f` / `#3b82f6`), Inter display font (2026-10-14)
 
 ## Pacing
 
 _(scene length, cuts vs. transitions, breathing room — populated by /feedback over time)_
 
-- _no rules captured yet_
+- Jump-cut out dead air, flubs and retakes; tight but natural delivery (2026-10-14)
+- Punch-in zooms on key lines; B-roll or a visual explainer on each major claim (2026-10-14)
 
 ## Captions
 
 _(style, color, sync tightness, word-by-word vs. phrase chunks — populated by /feedback over time)_
 
-- _no rules captured yet_
+- Animated captions throughout, key words highlighted in brand accent (2026-10-14)
 
 ## Transitions
 
@@ -38,7 +41,7 @@ _(preferred / avoid — populated by /feedback over time)_
 
 _(music vibe, voiceover style, SFX, mix — populated by /feedback over time)_
 
-- _no rules captured yet_
+- SFX where appropriate to punctuate cuts, zooms and reveals — subtle, never carrying the video (2026-10-14)
 
 ## Brand
 

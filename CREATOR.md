@@ -2,11 +2,11 @@
 <!-- ^ Leave this marker until /setup is complete. It tells Claude to greet a new user
      and run onboarding before any video work. The setup skill removes it when finished. -->
 
-# Creator Profile — _(your name)_
+# Creator Profile — _(name TBD)_
 
 Your identity, positioning, and workflow for video work in this workspace. **Read this before every video task** (alongside `PREFERENCES.md`). Use it for on-screen text, niche framing, and workflow assumptions.
 
-> 🚧 **This file is a blank template.** Run `/setup` (or just tell Claude "help me get set up") and it will fill these sections in from a short interview. You can also edit it by hand any time.
+> 🚧 **Setup in progress (2026-10-14).** Profile + brand set; still waiting on name/handles and reference videos (setup Step 3).
 
 ## Identity
 
@@ -20,29 +20,31 @@ When putting handles on-screen (lower-thirds, outros, end-cards), use the platfo
 
 ## Platform priority
 
-_(Which platform(s) matter most, and the default aspect ratio. Most short-form creators default to **9:16 vertical, 1080×1920**. Set during /setup.)_
+**Long-form VSL (video sales letter)** for landing pages / paid ads. Default canvas: **16:9 landscape, 1920×1080, 30fps**. This overrides the workspace's 9:16 short-form defaults — scale caption sizes, safe areas and graphic layouts for landscape.
 
 ## Content niche
 
-_(What you make videos about — e.g. AI tools, fitness, cooking, finance, comedy. Set during /setup. When planning a new video, the assistant assumes this niche unless told otherwise.)_
+**Agency / B2B service** — direct-response VSLs selling a done-for-you service to business owners. Visuals should build trust and credibility (proof, numbers, process, case studies) as much as energy.
 
 ## On-camera mix
 
-_(Do you appear on camera, go faceless, or both? Set during /setup.)_
+**Face-cam.** Talking head to camera is the anchor of every VSL; B-roll, graphics and full-screen explainers cut away from it and return.
 
 - **Face-cam** → use `/short-form-video` face-mode choreography (BOTTOM / FULLSCREEN modes).
 - **Faceless** → motion graphics + AI TTS narration (`npx hyperframes tts`) or screen-recordings.
 
 ## Workflow — division of labor
 
-_(Set during /setup. Two common modes:)_
+**The user provides RAW, unedited footage + the VSL script. The assistant does the full edit** — including cutting: remove dead air, flubs, retakes and long pauses (use the script to pick the best take), then build captions, zooms, B-roll, motion graphics and SFX on top. The script is the source of truth for wording; the edited A-roll timing is the source of truth for visuals.
+
+(Template modes, for reference:)
 
 - **You record + pre-edit your own speaking video** → it's the source of truth; the assistant builds the visual layer on top and does NOT cut your audio, remove pauses, or change your pacing.
 - **You build from scratch with the assistant** → motion graphics, TTS narration, screen-recordings assembled together.
 
 ## Brand identity
 
-_(Colors, fonts, logo. Often a blank slate at the start — `assets/brand-tokens.css` fills in over time. Set initial values during /setup.)_
+Dark + blue accent: bg `#0a0a0f`, surface `#1a1a23`, accent `#3b82f6`, text `#ffffff`, display font Inter. See `assets/brand-tokens.css`. Logo: not provided yet.
 
 ## Inspiration creators
 
@@ -50,13 +52,13 @@ _(Studied creators live in [`_reference/creator-library/`](_reference/creator-li
 
 ## Posting cadence & length defaults
 
-- _Cadence_: _(TBD — set during /setup)_
-- _Default length_: 15–45s short-form vertical is a common sweet spot. Adjust per video.
+- _Cadence_: per-campaign (VSLs, not a posting schedule)
+- _Default length_: dictated by the VSL script (typically 3–20 min). Optional cut-downs for ads on request.
 - _Default fps_: 30 (matches TikTok + Instagram defaults).
 
 ## Project slug convention
 
-**Topic-only, kebab-case.** Each video gets a new subfolder under `video-projects/<topic-slug>/`. Examples: `ai-agents-intro`, `prompting-101`, `tool-of-the-week`. Keep slugs short and descriptive — scannable at a glance in `ls video-projects/`.
+**Topic-only, kebab-case** (e.g. `agency-vsl-v1`). Each video gets a new subfolder under `video-projects/<topic-slug>/`. Examples: `ai-agents-intro`, `prompting-101`, `tool-of-the-week`. Keep slugs short and descriptive — scannable at a glance in `ls video-projects/`.
 
 ---
 

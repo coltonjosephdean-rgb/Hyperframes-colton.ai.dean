@@ -40,3 +40,8 @@ _reference/creator-library/**/source.webm
 _reference/creator-library/**/source.info.json
 _reference/creator-library/**/frames/
 
+
+# Raw VSL footage + reference videos (too large for git)
+video-projects/*/inbox/footage/*
+video-projects/*/inbox/references/*
+!video-projects/*/inbox/**/.gitkeep
